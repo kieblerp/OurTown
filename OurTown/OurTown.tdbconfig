@@ -207,7 +207,7 @@ src win selrange:Merrick.t:S:0:0,0
 src win selrange:Merrick.t:S:1:293,293
 src win edit mode:EndRoom.t:S:0:TADS 3
 src win edit mode:%tads%lib\adv3\en_us\en_us.t:S:0:TADS 3
-auto-script:next-id:I:357
+auto-script:next-id:I:358
 src win selrange:%tads%lib\adv3\misc.t:S:0:0,0
 src win selrange:%tads%lib\adv3\misc.t:S:1:67021,67026
 SearchToolbar:rebarWidth:I:281
