@@ -11,7 +11,7 @@ Created on September 23, 2015
 SevenDeadlySinsInn: Room
     name = '<font color="#880000">Seven Deadly Sinns</font>'
     vocabWords = 'inn'
-    desc = "<p>An old run down inn, still surprisingly active.</p>"
+    desc = "<p>What looks like old run down inn is somehow still surprisingly active inside.</p>"
     
     west = SouthMainStreet
     north = EndRoom // END ROOM HERE
