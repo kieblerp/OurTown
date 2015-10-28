@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<trizbort>
+	<info />
+	<map>
+		<room id="2" name="Lust Room" x="192" y="0" w="160" h="96" description="" />
+		<room id="3" name="Wrath Room" x="-512" y="192" w="160" h="96" description="" />
+		<room id="4" name="Pride Room" x="-64" y="160" w="160" h="96" description="" />
+		<room id="1" name="EnvyRoom" x="-512" y="-224" w="160" h="96" description="" />
+		<room id="5" name="GreedRoom" x="192" y="-224" w="160" h="96" description="" />
+		<room id="6" name="GluttonyRoom" x="-288" y="-224" w="160" h="96" description="" />
+		<room id="7" name="EndRoom" x="-64" y="-224" w="160" h="96" description="" />
+		<room id="8" name="SevenDeadlySinsInn" x="-64" y="-32" w="160" h="96" description="" />
+		<line id="9" style="dashed" startText="in" endText="out">
+			<dock index="0" id="8" port="n" />
+			<dock index="1" id="7" port="s" />
+		</line>
+		<line id="10" style="dashed" startText="in" endText="out">
+			<dock index="0" id="8" port="e" />
+			<dock index="1" id="2" port="w" />
+		</line>
+		<line id="11" style="dashed" startText="in" endText="out">
+			<dock index="0" id="8" port="s" />
+			<dock index="1" id="4" port="n" />
+		</line>
+		<line id="12" style="dashed" startText="in" endText="out">
+			<dock index="0" id="8" port="nw" />
+			<dock index="1" id="6" port="se" />
+		</line>
+		<line id="13" style="dashed" startText="in" endText="out">
+			<dock index="0" id="8" port="ne" />
+			<dock index="1" id="5" port="sw" />
+		</line>
+		<room id="16" name="SouthMainStreet" x="-512" y="0" w="160" h="96" description="">
+			<objects at="wsw" />
+		</room>
+		<line id="14" style="dashed" startText="down" endText="up">
+			<dock index="0" id="8" port="sw" />
+			<dock index="1" id="3" port="ne" />
+		</line>
+		<line id="15" style="dashed" startText="up" endText="down">
+			<dock index="0" id="8" port="wnw" />
+			<dock index="1" id="1" port="se" />
+		</line>
+		<line id="17" style="dashed" startText="out" endText="in">
+			<dock index="0" id="8" port="w" />
+			<dock index="1" id="16" port="e" />
+		</line>
+	</map>
+	<settings>
+		<colors>
+			<canvas>White</canvas>
+			<fill>White</fill>
+			<border>MidnightBlue</border>
+			<line>MidnightBlue</line>
+			<selectedLine>SteelBlue</selectedLine>
+			<hoverLine>DarkOrange</hoverLine>
+			<largeText>MidnightBlue</largeText>
+			<smallText>MidnightBlue</smallText>
+			<lineText>MidnightBlue</lineText>
+			<grid>#F5F5F5</grid>
+		</colors>
+		<fonts>
+			<room size="13">Comic Sans MS</room>
+			<object size="11">Comic Sans MS</object>
+			<line size="9">Comic Sans MS</line>
+		</fonts>
+		<grid>
+			<snapTo>yes</snapTo>
+			<visible>yes</visible>
+			<showOrigin>yes</showOrigin>
+			<size>32</size>
+		</grid>
+		<lines>
+			<width>2</width>
+			<handDrawn>yes</handDrawn>
+			<arrowSize>12</arrowSize>
+			<textOffset>4</textOffset>
+		</lines>
+		<rooms>
+			<darknessStripeSize>24</darknessStripeSize>
+			<objectListOffset>4</objectListOffset>
+			<connectionStalkLength>32</connectionStalkLength>
+			<preferredDistanceBetweenRooms>64</preferredDistanceBetweenRooms>
+		</rooms>
+		<ui>
+			<handleSize>12</handleSize>
+			<snapToElementSize>16</snapToElementSize>
+		</ui>
+		<keypadNavigation>
+			<creationModifier>control</creationModifier>
+			<unexploredModifier>alt</unexploredModifier>
+		</keypadNavigation>
+	</settings>
+</trizbort>
