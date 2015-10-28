@@ -11,8 +11,8 @@ Created on October 14, 2015
 GreedRoom: Room
     name = '<font color="#880000">The Avarice Abode</font>'
     vocabWords = 'Greed Room'
-    desc = "<table><tr><td><img src=\"GoldRoom.jpg\" height=\"100\" width=\"200\"></td><td>A set of winding stairs leads to a yellow room that contains a single window. A man peers out.
-    Down the stairs lies the Inn.</td></tr></table>"
+    desc = "<table><tr><td><img src=\"GoldRoom.jpg\" height=\"100\" width=\"200\"></td><td>You enter a shimmering room filled with the finest furniture.
+    Southwest lies the Inn.</td></tr></table>"
     
     southwest = SevenDeadlySinsInn
 ;

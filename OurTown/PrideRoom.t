@@ -13,7 +13,7 @@ PrideRoom: Room
     name = '<font color="#880000">Proud Sanctum</font>'
     vocabWords = 'Pride Room'
     desc = "<table><tr><td><img src=\"PrideMirror.jpg\" height=\"100\" width=\"200\"></td><td>A violet room that contains a single, very large mirror. A man is staring into the mirror.
-    below is the Inn.</td></tr></table>"
+    North is the Inn.</td></tr></table>"
     
     north = SevenDeadlySinsInn
 ;

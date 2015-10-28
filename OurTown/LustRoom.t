@@ -13,7 +13,7 @@ LustRoom: Room
     name = '<font color="#880000">Lustful Sanctuary</font>'
     vocabWords = 'Lust Room'
     desc = "<table><tr><td><img src=\"eastbroadway.jpg\" height=\"100\" width=\"200\"></td><td> A blue room filled with strange utensils.
-    To the east is the Inn.</td></tr></table>"
+    To the west is the Inn.</td></tr></table>"
     
     west = SevenDeadlySinsInn
 ;
