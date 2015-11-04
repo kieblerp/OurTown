@@ -6,7 +6,6 @@
 Created by Patrick Kiebler
 Created on October 26, 2015 
     maintenance log
-    change it
     required maintenance: change picture and description
 */
     
