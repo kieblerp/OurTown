@@ -53,6 +53,13 @@
 -source GreedRoom
 -source GluttonyRoom
 -source EndRoom
+-source Peasant
+-source PrideMan
+-source EnvyMan
+-source KensingtonFollower
+-source Warrior1
+-source Warrior2
+-source Pig
 
 -res
 GameInfo.txt
