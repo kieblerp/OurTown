@@ -16,6 +16,11 @@ Warrior1: Person 'man' 'warrior'
     "A warrior is battling with another man.(insert description)"
     disambigName = 'warrior'
     posture = standing
-    location = WrathRoom
-    properName = 'Tywin Bannister'
+    isHim = true 
+    dexterity = 5
+    health = 10
+    accuracy = 10
+    strength = 10location = WrathRoom
+    properName = 'Tywin Bannister' 
+    deathMsg = "<p>\"*Insert death message*.</p>"
 ;
