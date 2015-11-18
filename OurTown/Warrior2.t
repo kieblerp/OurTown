@@ -17,5 +17,12 @@ Warrior2: Person 'man' 'warrior'
     disambigName = 'warrior'
     posture = standing
     location = WrathRoom
+    isHim = true 
+    dexterity = 5
+    health = 10
+    accuracy = 10
+    strength = 10
     properName = 'Tyrion Bannister'
+    disambigName = 'warrior'
+    deathMsg = "<p>\"*Insert death message*.</p>"
 ;
