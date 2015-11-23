@@ -23,6 +23,5 @@ Warrior2: Person 'man' 'warrior'
     accuracy = 10
     strength = 10
     properName = 'Tyrion Bannister'
-    disambigName = 'warrior'
     deathMsg = "<p>\"*Insert death message*.</p>"
 ;
