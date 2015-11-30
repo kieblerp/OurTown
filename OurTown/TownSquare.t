@@ -25,3 +25,8 @@ TownSquare: OutdoorRoom
      
 
 ;
+
+    +BucketofSlop: Object
+        'bucket of slop/slop'
+        "A bucket full of mixed vegetables and grains sits in the corner. It smells like something only an animal could eat."
+        weight = 15
