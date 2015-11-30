@@ -16,3 +16,16 @@ EnvyRoom: Room
     
     down = SevenDeadlySinsInn
 ;
+
+ +WindowWithCurtain: Thing
+    name = 'Small Window with Curtain'
+    vocabWords = 'curtain/Curtain'
+    location = 'EnvyRoom
+    desc = "<p>A small window with a silk curtain overlooks the countryside. A man appears to be veering throught the window, with a look of jealousy on his face.</p>"
+    inRoomDesc = "<p>A small window with a silk curtain overlooks the countryside. A man appears to be veering throught the window, with a look of jealousy on his face.</p>"
+    
+    dobjFor(shut)
+        { 
+            action()
+
+                    
