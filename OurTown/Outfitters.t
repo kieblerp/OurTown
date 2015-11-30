@@ -16,3 +16,8 @@ Outfitters: Room
     east = SouthMainStreet
     north = WestBroadway
 ;
+
+    +Helmet: Object
+        'helmet'
+        "A heavy helmet that could really weigh ones head down."
+        weight = 25
