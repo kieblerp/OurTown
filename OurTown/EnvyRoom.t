@@ -24,8 +24,14 @@ EnvyRoom: Room
     desc = "<p>A small window with a silk curtain overlooks the countryside. A man appears to be veering throught the window, with a look of jealousy on his face.</p>"
     inRoomDesc = "<p>A small window with a silk curtain overlooks the countryside. A man appears to be veering throught the window, with a look of jealousy on his face.</p>"
     
-    dobjFor(shut)
+    dobjFor(Close)
         { 
             action()
+            { 
+                makeClose(true);
+                "The curtain is now closed, the man is unable to veer through."
+            }
+        }
+    ;            
 
                     
