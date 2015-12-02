@@ -29,12 +29,12 @@ EnvyRoom: Room
              verify()
                 {
                     if (isClose)
-                        illogicalAlready("The curtain is already closed.");
+                        illogicalAlready('{The dobj} {is} already closed.");
                 }            
             action()
                 { 
                     makeClose(true);
-                         "The curtain is now closed, the man is unable to veer through."
+                         "{the dobj} {is} now closed, the man is unable to veer through.";
             }
 
         }
