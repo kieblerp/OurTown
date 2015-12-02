@@ -26,16 +26,17 @@ EnvyRoom: Room
     
     dobjFor(Close)
         { 
-            action()
-            { 
-                makeClose(true);
-                "The curtain is now closed, the man is unable to veer through."
-            }
              verify()
                 {
                     if (isClose)
-                        illogicalAlready('The curtain is already closed.');
-                }
+                        illogicalAlready("The curtain is already closed.");
+                }            
+            action()
+                { 
+                    makeClose(true);
+                         "The curtain is now closed, the man is unable to veer through."
+            }
+
         }
     ;            
 
