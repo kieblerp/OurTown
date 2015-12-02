@@ -31,6 +31,11 @@ EnvyRoom: Room
                 makeClose(true);
                 "The curtain is now closed, the man is unable to veer through."
             }
+             verify()
+                {
+                    if (isClose)
+                        illogicalAlready('The curtain is already closed.');
+                }
         }
     ;            
 
