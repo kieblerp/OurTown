@@ -34,7 +34,7 @@ EnvyRoom: Room
             action()
                 { 
                     makeClose(true);
-                         "{the dobj} {is} now closed, the man is unable to veer through.";
+                         "{the dobj} {is} now closed, the man's unable to veer through.";
             }
 
         }
